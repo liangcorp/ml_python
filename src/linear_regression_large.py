@@ -2,7 +2,7 @@
 import pandas
 from sklearn import linear_model
 
-df = pandas.read_csv("data_files/winequality-red.csv")
+df = pandas.read_csv("data_files/winequality_scaled.csv")
 
 X = df[["fixed acidity",
         "volatile acidity",
